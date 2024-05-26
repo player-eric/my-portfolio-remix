@@ -1,0 +1,6 @@
+.cache/
+.stacker/
+build/
+public/
+vitest.config.mts
+remix.config.js
