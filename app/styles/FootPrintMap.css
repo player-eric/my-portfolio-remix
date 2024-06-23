@@ -1,18 +1,16 @@
-/* MapComponent.css */
-
 .container {
     display: flex;
     justify-content: center;
     height: 100vh;
-  }
+}
 
-  .map-wrapper {
+.map-wrapper {
     height: 90vh;
     width: 90vw;
     position: relative;
-  }
+}
 
-  .full-screen-image-wrapper {
+.full-screen-image-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -24,9 +22,21 @@
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
     z-index: 1000;
-  }
+}
 
-  .full-screen-image-wrapper img {
-    max-width: 100%;
+.full-screen-image-wrapper img {
+    max-width: 80%;
     max-height: 100%;
-  }
+}
+
+.leaflet-popup-content {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.footprint-without-image-icon {
+    cursor: default;
+}
