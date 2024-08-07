@@ -5,7 +5,7 @@ import FootPrintMap from '~/components/FootPrintMap.client';
 import {
     footPrintsWithPicture,
     footPrintsWithoutPicture
-} from '~/configs/footPrints';
+} from 'public/configs/footPrints';
 
 export const links: LinksFunction = () => [
     {
